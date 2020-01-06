@@ -97,7 +97,7 @@
   padding: 20px;
 }
 
-#header2 {
+#header2 .icon {
   background-attachment: fixed;
 }
 
@@ -271,7 +271,11 @@
   font-size: 55px;
 }
 
-#fotoo .foto00 .boxx button {
+#fotoo {
+  margin-left: 100px;
+}
+
+#fotoo .boxx button {
   position: absolute;
   margin-left: -185px;
   margin-top: 289px;
@@ -280,22 +284,23 @@
   background: black;
 }
 
-#fotoo .foto00 .boxx button:hover {
+#fotoo .boxx button:hover {
   opacity: .9;
   background: sienna;
 }
 
-#fotoo .foto00 .boxx img {
+#fotoo .boxx img {
   margin-left: -9px;
 }
 
-#fotoo .foto00 img {
+#fotoo img {
   height: 300px;
   margin: 25px;
   cursor: pointer;
 }
 
 #yellow {
+  background-attachment: fixed;
   color: white;
   margin-top: 100px;
   background-image: url(../foto/model_cutout.jpg);
@@ -307,12 +312,19 @@
   padding: 150px;
 }
 
+#yellow .yellow1 h6 {
+  margin: 50px;
+  margin-top: -15px;
+  margin-left: 5%;
+  color: white;
+}
+
 #yellow .yellow1 button {
   background: white;
   border: none;
   padding: 15px 30px;
   margin-top: 20px;
-  margin-left: -112px;
+  color: black;
 }
 
 #yellow .yellow1 button:hover {
@@ -331,7 +343,8 @@
 }
 
 #logo1 .logo2 img {
-  padding: 25px 50px;
+  margin-left: -1%;
+  padding: 25px 55px;
   height: 90px;
 }
 
@@ -339,6 +352,11 @@
   margin: 20px;
   margin-top: 130px;
   text-align: center;
+}
+
+#orta .orta1 h1 {
+  padding: 25px;
+  color: black;
 }
 
 #orta .orta1 .btn-text {
@@ -353,38 +371,88 @@
 }
 
 #aa {
-  margin: 120px;
+  margin-top: -15%;
 }
 
 #aa .img77 {
-  margin-top: 9px;
-  margin-left: -23px;
+  margin-top: 300px;
+}
+
+#aa .img77 h4 {
+  position: absolute;
+  font-size: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+#aa .img77 span {
+  position: absolute;
+  margin-top: 29%;
+  margin-left: -19%;
+}
+
+#aa .img77 i {
+  position: absolute;
+  opacity: .9;
+  font-size: 20px;
+  color: black;
+  border-radius: 50%;
+  border: 9px solid white;
+  background: white;
+  margin-left: 16%;
+  margin-top: 19%;
+  text-align: center;
+  opacity: 0;
+}
+
+#aa .img77 i:hover {
+  opacity: .9;
+}
+
+#aa .img77 button {
+  position: absolute;
+  margin-left: 2.5%;
+  background: black;
+  margin-top: 23%;
+  height: 5%;
+  width: 16%;
+  border: 1px solid black;
+  opacity: 0;
+  border: none;
+}
+
+#aa .img77 button:hover {
+  background: sienna;
+  opacity: .9;
+}
+
+#aa .img77 h6 {
+  position: absolute;
+  margin-top: -25%;
+  color: black;
+  margin-left: 63%;
+  border: 1px solid white;
+  background: white;
+  height: 3.5%;
+  width: 4%;
+  text-align: center;
+}
+
+#aa .img77 h5 {
+  margin-top: -25%;
+  margin-left: 22%;
+  position: absolute;
+  color: white;
+  border: 1px solid red;
+  background: red;
 }
 
 #aa .img77 img {
-  position: absolute;
-  height: 350px;
-  width: 250px;
-  margin-top: -3px;
-}
-
-.img76 img {
-  margin-left: 280px;
-  margin-top: -3px;
-}
-
-.img75 img {
-  margin-left: 560px;
-  margin-top: -3px;
-}
-
-.img74 img {
-  margin-left: 870px;
-  margin-top: -3px;
+  margin-left: 15px;
 }
 
 #www {
-  margin-top: 690px;
+  margin-top: 25%;
 }
 
 #www .ww1 {
@@ -419,47 +487,27 @@ h1 {
 }
 
 #center {
-  margin-top: 90px;
+  margin-top: 50px;
+}
+
+#center .center1 {
+  margin-left: -70px;
 }
 
 #center .center1 img {
-  height: 40px;
+  margin-left: 100px;
 }
 
-h6 {
-  margin-left: 70px;
-  margin-top: -30px;
+#center .center1 span {
+  margin-left: -115px;
+  font-size: 13px;
+  margin-top: 25px;
 }
 
-span {
-  margin-left: 70px;
-}
-
-.center2 {
-  margin-left: 250px;
-  margin-top: -60px;
-}
-
-.center2 img {
-  height: 40px;
-}
-
-.center3 {
-  margin-left: 530px;
-  margin-top: -60px;
-}
-
-.center3 img {
-  height: 40px;
-}
-
-.center4 {
-  margin-left: 800px;
-  margin-top: -60px;
-}
-
-.center4 img {
-  height: 40px;
+#center h6 {
+  margin-left: 13px;
+  margin-top: 0px;
+  font-size: 15px;
 }
 
 #fashion {
@@ -473,12 +521,22 @@ span {
 
 #res {
   margin-top: 99px;
-  background-image: url(../foto/post1.jpg);
   height: 350px;
   width: 570px;
   background-size: cover;
   margin-top: 200px;
   margin-left: 50px;
+}
+
+#res .res1 {
+  background-image: url(../foto/post1.jpg);
+  background-size: cover;
+  height: 350px;
+}
+
+#res .res1:hover {
+  -webkit-transition: .6s;
+  transition: .6s;
 }
 
 #res .res1 p {
@@ -504,7 +562,7 @@ button:hover {
 h6 {
   margin-top: 100px;
   margin-left: 25px;
-  color: white;
+  color: black;
 }
 
 .res2 {
@@ -512,7 +570,7 @@ h6 {
   margin-left: 165%;
   height: 350px;
   width: 285px;
-  margin-top: -59%;
+  margin-top: -64%;
   background-size: cover;
 }
 
